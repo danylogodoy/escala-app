@@ -59,7 +59,7 @@ export default function LogsPage() {
       setLoading(true);
       const userId = await getUserId();
 
-      const provs = await listProviders(userId);
+      const provs = await listProviders();
       setProviders(provs);
       if (!providerId && provs.length > 0) setProviderId(provs[0].id);
 
