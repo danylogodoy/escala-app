@@ -63,7 +63,7 @@ export default function LogsPage() {
       setProviders(provs);
       if (!providerId && provs.length > 0) setProviderId(provs[0].id);
 
-      const s = await getOrCreateSettings(userId);
+      const s = await getOrCreateSettings();
       setMealUnit(Number(s.meal_unit_value || 15));
       setRateDay(Number(s.rate_day || 25));
       setRateNight(Number(s.rate_night || 27));
