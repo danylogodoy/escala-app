@@ -152,6 +152,12 @@ if (provs?.length && !form.provider_id) {
           >
             Config
           </a>
+          <a
+  href="/audit"
+  className="rounded-xl border border-gray-200 bg-white px-3 py-2 text-sm hover:bg-gray-50"
+>
+  Auditoria
+</a>
           <button
             onClick={handleLogout}
             className="rounded-xl bg-black px-4 py-2 text-sm font-medium text-white hover:opacity-80"
