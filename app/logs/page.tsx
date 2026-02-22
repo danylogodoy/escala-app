@@ -132,39 +132,6 @@ if (provs?.length && !form.provider_id) {
             Unitário refeição: R$ {Number(mealUnit).toFixed(2)}
           </p>
         </div>
-
-        <div className="flex items-center gap-2">
-          <a
-            href="/providers"
-            className="rounded-xl border border-gray-200 bg-white px-3 py-2 text-sm hover:bg-gray-50"
-          >
-            Prestadores
-          </a>
-          <a
-            href="/summary"
-            className="rounded-xl border border-gray-200 bg-white px-3 py-2 text-sm hover:bg-gray-50"
-          >
-            Resumo
-          </a>
-          <a
-            href="/settings"
-            className="rounded-xl border border-gray-200 bg-white px-3 py-2 text-sm hover:bg-gray-50"
-          >
-            Config
-          </a>
-          <a
-  href="/audit"
-  className="rounded-xl border border-gray-200 bg-white px-3 py-2 text-sm hover:bg-gray-50"
->
-  Auditoria
-</a>
-          <button
-            onClick={handleLogout}
-            className="rounded-xl bg-black px-4 py-2 text-sm font-medium text-white hover:opacity-80"
-          >
-            Sair
-          </button>
-        </div>
       </div>
 <div className="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm">
   <div className="flex items-center justify-between gap-3">
