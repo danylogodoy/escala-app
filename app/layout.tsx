@@ -45,6 +45,7 @@ export default function RootLayout({
               <NavLink href="/providers" label="Prestadores" />
               <NavLink href="/summary" label="Resumo" />
               <NavLink href="/settings" label="Config" />
+              <NavLink href="/audit" label="Auditoria" />
             </nav>
 
             <div className="flex items-center gap-2">
