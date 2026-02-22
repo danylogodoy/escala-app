@@ -1,4 +1,5 @@
 import "./globals.css";
+import AuthButton from "@/components/AuthButton";
 
 export const metadata = {
   title: "Escala App",
@@ -47,12 +48,7 @@ export default function RootLayout({
             </nav>
 
             <div className="flex items-center gap-2">
-              <a
-                href="/login"
-                className="rounded-xl border border-gray-200 bg-white px-3 py-2 text-sm hover:bg-gray-50"
-              >
-                Login
-              </a>
+              <AuthButton />
             </div>
           </div>
         </div>
